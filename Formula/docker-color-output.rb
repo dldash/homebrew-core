@@ -1,8 +1,8 @@
 class DockerColorOutput < Formula
   desc "This package allows to colorize the docker output"
   homepage "https://github.com/devemio/docker-color-output"
-  url "https://github.com/devemio/docker-color-output/archive/refs/tags/v2.1.0.tar.gz"
-  sha256 "e36e44f7ed524cc5ea229055beda651d09dc9e6d7617712d148c565fb2b6a18e"
+  url "https://github.com/devemio/docker-color-output/archive/refs/tags/v2.2.0.tar.gz"
+  sha256 "f0b09b798bcee1e495d1b3198c02a452e27e252123a741f9adb403ef4f836a2f"
   license "MIT"
 
   depends_on "cmake" => :build
