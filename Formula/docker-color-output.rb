@@ -10,7 +10,7 @@ class DockerColorOutput < Formula
 
   def install
     system "make"
-    mv "bin/dco-darwin-amd64", "docker-color-output"
+    mv "bin/docker-color-output", "docker-color-output"
     bin.install "docker-color-output"
   end
 
