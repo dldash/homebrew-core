@@ -20,5 +20,5 @@ echo "👌 Formula updated" && \
 rm "$latest_release.tar.gz" && \
 echo "👌 Release removed" && \
 
-git add . && git commit -m "$latest_release" && git push && \
+git add . && git commit -m "$latest_release" -q && git push -q && \
 echo "👌 Release published"
